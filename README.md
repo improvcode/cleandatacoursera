@@ -10,6 +10,8 @@ The data is downloaded from the following link:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  from this link:
 
+Citation: Jorge-L. Reyes-Ortiz, Luca Oneto, Albert SamÃ , Xavier Parra, Davide Anguita. Transition-Aware Human Activity Recognition Using Smartphones. Neurocomputing. Springer 2015. 
+
 Running this scripts performs the following analysis:
 
 1. The zipped data is downloaded to a temporary file in the current working directory
@@ -24,3 +26,7 @@ Running this scripts performs the following analysis:
 7. Averages for each feature are calculated by subject and activity id
 8. The averages are written out to the file uci_har_avg.txt
 
+Codebooks:
+features_info.txt contains information on the features from the original dataset
+extract_info.txt contains the variable names on the extracted data for this project
+summary_info.txt contains information on the summary data
